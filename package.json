@@ -32,6 +32,7 @@
     "url": "https://github.com/JonasJs/svelte-qrcode/"
   },
   "dependencies": {
-    "qrious": "^4.0.2"
+    "qrious": "^4.0.2",
+    "svelte-qrcode": "^1.0.0"
   }
 }

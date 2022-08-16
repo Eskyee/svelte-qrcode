@@ -4,19 +4,19 @@
 
 <main class="container">
   <div class="content">
-    <h1>This is your <strong>Boarding pass</strong></h1>
+    <h1>Festival Miami <strong>- Event Ticket</strong></h1>
     <div class="resume">
       <div class="fly">
         <div class="row">
           <div class="local">
-            <p>Brazil</p>
-            <h2>BRA</h2>
+            <p>Miami</p>
+            <h2>MIA</h2>
+          </div>
+          <div class="items">
+            <p>Date</p>
+            <h3>{new Date().toDateString()}</h3>
           </div>
           <img src="./assets/images/icon.png" alt="" />
-          <div class="local">
-            <p>Amsterdam</p>
-            <h2>AMS</h2>
-          </div>
         </div>
         <div class="info-group">
           <div class="items">
@@ -32,34 +32,21 @@
             <h3>20C</h3>
           </div>
         </div>
-      
         <div class="info-group">
           <div class="items">
-            <p>Boarding time</p>
+            <p>Event time</p>
             <h3>11:00</h3>
-          </div>
-          <div class="items">
-            <p>Departure</p>
-            <h3>14:00</h3>
-          </div>
-          <div class="items">
-            <p>Arruval</p>
-            <h3>16:00</h3>
           </div>
         </div>
       </div>
       <div class="sidebar">
         <div class="info-group">
           <div class="items">
-            <p>Name</p>
+            <p>ID</p>
             <h3 class="name">RS 7593</h3>
           </div>
-          <div class="items">
-            <p>Date</p>
-            <h3>{new Date().toDateString()}</h3>
-          </div>
         </div>
-        <QrCode class="qrcode" value="https://www.linkedin.com/in/jonas-alves-9163a5136/"/>
+        <QrCode class="qrcode" value="https://junglelab.io/a/certified-bangerz-valencia-instrumental-prod-by-dirty-saj-9bfa0/"/>
       </div>
     </div>
   </div>
@@ -78,7 +65,7 @@
     background: #fff;
     border-radius: 10px;
     margin: 20px;
-    padding: 56px 40px;
+    padding: 56px 56px;
     box-shadow: 0px 13px 97px rgba(0, 0, 0, 0.17);
   }
   h1 {
@@ -141,7 +128,7 @@
     color: #1C1D23;
   }
   .items h3.name {
-    color: #4b4ad5;
+    color: #f85604;
     text-align: left;
   }
   .sidebar {
