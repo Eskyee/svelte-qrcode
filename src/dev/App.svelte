@@ -46,7 +46,7 @@
             <h3 class="name">RS 7593</h3>
           </div>
         </div>
-        <QrCode class="qrcode" value="https://junglelab.io/a/certified-bangerz-valencia-instrumental-prod-by-dirty-saj-9bfa0/"/>
+        <QrCode class="qrcode" value="https://junglelab.io/"/>
       </div>
     </div>
   </div>
